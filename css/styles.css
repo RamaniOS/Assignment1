@@ -10,6 +10,10 @@ img {
   max-width: 100%;
 }
 
+main h2 {
+  text-align: center;
+}
+
 /* styles for teh container id */
 #container {
   width: 100%;
