@@ -5,6 +5,25 @@ body {
   background-color: #1d1d1c;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 100%;
+  width: 40.33%;
+  margin-right: 2em;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /* styles for fluid image */
 img {
@@ -273,7 +292,7 @@ footer a {
   /* styles for the aside element */
   aside {
     background-color: #ffffff;
-    border-radius: 0 5em 5em 5em;
+    border-radius: 5em 5em 5em 5em;
     box-shadow: 1em 1em 1em #4c4f4d;
     padding: 1.5em;
     margin: 1em;
